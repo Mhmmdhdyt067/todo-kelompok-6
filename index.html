@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aplikasi To-Do List sederhana untuk praktikum RPL.">
+    <title>To-Do List Kelompok</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <header class="header">
+            <p class="eyebrow">APLIKASI PRODUKTIVITAS</p>
+            <h1>To-Do List</h1>
+            <p class="subtitle">Catat tugasmu, selesaikan satu per satu.</p>
+        </header>
+
+        <section class="todo-card" aria-label="Daftar tugas">
+            <div class="input-group">
+                <label for="inputTugas" class="sr-only">Tulis tugas</label>
+                <input
+                    type="text"
+                    id="inputTugas"
+                    placeholder="Tulis tugas yang ingin dikerjakan..."
+                    maxlength="120"
+                    autocomplete="off"
+                >
+                <button type="button" id="btnTambah">Tambah</button>
+            </div>
+
+            <div class="list-heading">
+                <h2>Daftar Pekerjaan</h2>
+                <p id="jumlahTugas" aria-live="polite">Jumlah tugas: 0</p>
+            </div>
+
+            <ul id="daftarTugas" aria-live="polite"></ul>
+            <p id="pesanKosong" class="empty-state">Belum ada tugas. Tambahkan tugas pertamamu!</p>
+
+            <p class="hint">Klik satu kali untuk menandai selesai. Klik dua kali untuk menghapus.</p>
+        </section>
+
+        <footer class="footer">
+            <p>Praktikum Rekayasa Perangkat Lunak · Scrum dengan Git &amp; GitHub</p>
+        </footer>
+    </main>
+
+    <!-- Urutan file JavaScript: tambah/selesai, hapus, lalu hitung jumlah. -->
+    <script src="script.js"></script>
+    <script src="hapus.js"></script>
+    <script src="hitung.js"></script>
+</body>
+</html>
