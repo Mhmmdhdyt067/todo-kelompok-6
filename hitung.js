@@ -1,5 +1,3 @@
-// US-6: Menghitung jumlah tugas secara otomatis.
-
 const daftarHitung = document.getElementById("daftarTugas");
 const labelJumlah = document.getElementById("jumlahTugas");
 
