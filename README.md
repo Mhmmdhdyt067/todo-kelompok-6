@@ -41,13 +41,13 @@ todo-kelompok/
 1. Clone repository:
 
    ```bash
-   git clone https://github.com/USERNAME-SM/todo-kelompok-NOMOR.git
+   https://github.com/Mhmmdhdyt067/todo-kelompok-6.git
    ```
 
 2. Masuk ke folder proyek:
 
    ```bash
-   cd todo-kelompok-NOMOR
+   cd todo-kelompok-6
    ```
 
 3. Buka file `index.html` menggunakan browser (misalnya Chrome atau Firefox).
@@ -68,14 +68,13 @@ Catatan: daftar tugas hanya disimpan selama halaman masih terbuka. Jika halaman 
 
 Isi nama anggota dan perannya sesuai pembagian kelompok praktikum:
 
-| No. | Nama Anggota   | Peran         | User Story                        |
-| --: | -------------- | ------------- | --------------------------------- |
-|   1 | Nama Anggota 1 | Product Owner | US-4: README                      |
-|   2 | Nama Anggota 2 | Scrum Master  | US-1: Halaman utama               |
-|   3 | Nama Anggota 3 | Developer 1   | US-2: Tambah dan selesaikan tugas |
-|   4 | Nama Anggota 4 | Developer 2   | US-3: Tampilan                    |
-|   5 | Nama Anggota 5 | Developer 3   | US-5: Hapus tugas                 |
-|   6 | Nama Anggota 6 | Developer 4   | US-6: Jumlah tugas                |
+| No. | Nama Anggota         | Peran         | User Story                        |
+| --: | -------------------- | ------------- | --------------------------------- |
+|   1 | Purnama F. T. P. K.  | Product Owner | US-4: README                      |
+|   2 | Muhammad Hidayat     | Scrum Master  | US-1: Halaman utama               |
+|   3 | Sitti Munawara       | Developer 1   | US-2: Tambah dan selesaikan tugas |
+|   4 | Fitria Rizky Oktavia | Developer 2   | US-3: Tampilan                    |
+|   5 | Zollahuddin Ahmad    | Developer 3   | US-5: Hapus tugas                 |
 
 ## Definition of Done
 
